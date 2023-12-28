@@ -1,30 +1,51 @@
 function productExceptSelf(nums: number[]): number[] {
-    let productArray = [];
-    let temp = [];
-    for (let index = 0; index < nums.length; index++) {
-        temp = removeElementFromArray(nums, nums[index])
-        // console.log('nums', nums)
+    const length = nums.length;
 
-        // console.log('temp', temp)
-        productArray.push(multiplyArrayElements(temp))
+    // Initialize arrays to store products to the left and right of each element         n
+    const leftProducts = new Array(length).fill(1);
+    const rightProducts = new Array(length).fill(1);
+    const result = new Array(length).fill(1);
+
+
+    // Compute products to the left of each element
+    let leftProduct = 1;
+    for (let i = 1; i < length; i++) {
+        leftProduct = leftProduct * nums[i - 1];
+        leftProducts[i] = leftProduct;
+        console.log('leftProduct', leftProduct)
+        console.log('leftProducts', leftProducts)
     }
-    // console.log(productArray    )
-    // nums.forEach(
-    //     (num) => {
-    //         let result = 
-    //     }
-    // )
-    return productArray;
+
+    // Compute products to the right of each element
+    let rightProduct = 1;
+    for (let i = length - 2; i >= 0; i--) {
+        rightProduct *= nums[i + 1];
+        rightProducts[i] = rightProduct;
+        console.log('rightProduct', rightProduct)
+        console.log('rightProducts', rightProducts)
+    }
+
+
+    for (let i = 0; i < length; i++) {
+        result[i] = leftProducts[i] * rightProducts[i];
+    }
+
+    // console.log(result)
+
+    // let productArray = [];
+
+    // for (let index = 0; index < nums.length; index++) {
+    //     productArray.push(removeElementAtIndex(nums, index)
+    //         .reduce((accumulator, currentValue) => accumulator * currentValue, 1)
+    //     )
+    // }
+    // return productArray;
+    return result;
 };
 
-function multiplyArrayElements(arr) {
-    if (arr.length === 0) {
-        return 0; // or throw an error, depending on your requirements
-    }
+// function removeElementAtIndex(arr: number[], indexToRemove: number): number[] {
+//     return [...arr.slice(0, indexToRemove), ...arr.slice(indexToRemove + 1)];
+// }
 
-    return arr.reduce((accumulator, currentValue) => accumulator * currentValue, 1);
-}
-
-function removeElementFromArray(arr, elementToRemove) {
-    return arr.filter(element => element !== elementToRemove);
-}
+//commented solution getting timedout
+console.log(productExceptSelf([2, 3, 4, 5]))
