@@ -1,3 +1,4 @@
+//4 / 142 testcases passed
 function longestPalindrome(s: string): string {
     let result;
     let length = 0;
