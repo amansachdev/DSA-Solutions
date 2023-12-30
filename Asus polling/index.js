@@ -57,4 +57,5 @@ function arraysEqual(arr1, arr2) {
 }
 
 // Poll the API every 10 minutes (600,000 milliseconds)
+pollApi();
 setInterval(pollApi, 600000);
