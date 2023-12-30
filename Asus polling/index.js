@@ -1,10 +1,12 @@
 var axios = require("axios");
-const { headers, token, chatId } = require("./config");
+// const { headers, token, chatId } = require("./config");
 const TelegramBot = require("node-telegram-bot-api");
 
-const bot = new TelegramBot(token, {
+const bot = new TelegramBot(process.env.token, {
   polling: false,
 });
+
+const chatId = parseInt(process.env.chatId)
 
 // Initialize the previous response to an empty array
 var previousResponse = [];
@@ -13,7 +15,7 @@ function pollApi() {
   var config = {
     method: "get",
     url: "https://rog.asus.com/elite/api/v2/RewardList?aticket=e87ddc8992a84887ba8e4d09880f7738&WebsiteCode=in&systemCode=rog",
-    headers: headers,
+    headers: JSON.parse(process.env.headers),
   };
 
   axios(config)
