@@ -1,5 +1,10 @@
 var axios = require("axios");
 // const { headers, token, chatId } = require("./config");
+const express = require("express");
+
+const app = express();
+const port = process.env.PORT || 3000;
+
 const TelegramBot = require("node-telegram-bot-api");
 
 const bot = new TelegramBot(process.env.token, {
@@ -73,4 +78,7 @@ function arraysEqual(arr1, arr2) {
 
 // Poll the API every 10 minutes (600,000 milliseconds)
 pollApi();
+app.listen(port, () => {
+  console.log(`Server listening on port ${port}`);
+});
 setInterval(pollApi, 600000);
