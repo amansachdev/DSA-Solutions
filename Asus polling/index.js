@@ -16,23 +16,6 @@ const chatId = parseInt(process.env.chatId);
 // Initialize the previous response to an empty array
 var previousResponse = [
   {
-    RewardName: "10 USD GoGift Global gift card ",
-    MediaIdPC:
-      "https://dlcdnwebimgs.asus.com/gain/9547317c-28ad-4923-9e71-3e1b87a8b162/",
-    MediaIdMobile:
-      "https://dlcdnwebimgs.asus.com/gain/9547317c-28ad-4923-9e71-3e1b87a8b162/",
-    RewardId: 755,
-    Description:
-      '<p><strong>What\'s a GoGift global gift card?</strong></p>\n<p>With this, you can choose from thousands of global brands worldwide. Discover the available gift card options in your region: <a href="https://gogift.com/en/us/usd/display-catalog/asus" target="_blank" rel="noopener">https://gogift.com/en/us/usd/display-catalog/asus</a></p>\n<p><strong>Reminder:</strong></p>\n<p>1. GoGift TGGC is valid for three years after release.</p>\n<p>2. The gift card may vary from country/region of residence you confirm.</p>\n<p><strong>GoGift card redemption process:</strong></p>\n<p>1. Click the &ldquo;complete&rdquo; button to complete the redemption</p>\n<p>2. Copy and paste the GoGift URL and follow the below pdf file instructions to finalize redemption. (<a href="https://rog.asus.com/event/giftcard/redemption.pdf" target="_blank" rel="noopener">https://rog.asus.com/event/giftcard/redemption.pdf</a>)</p>',
-    RewardType: 2,
-    Status: 3,
-    Point: 500,
-    Priority: 1,
-    ButtonWords: "500 POINTS",
-    TipMessage: "",
-    TipTitle: "",
-  },
-  {
     RewardName: "5 USD GoGift Global Gift Card",
     MediaIdPC:
       "https://dlcdnwebimgs.asus.com/gain/a7b512e3-8e36-41ab-a696-08812c7dbdac/",
