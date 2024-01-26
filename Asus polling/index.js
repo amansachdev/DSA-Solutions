@@ -705,6 +705,7 @@ app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
 setInterval(pollApi, 600000);
+dailyLogin();
 setInterval(dailyLogin, 86400000);
 
 
