@@ -1,3 +1,4 @@
+//Time limit issue.
 function maxArea(height: number[]): number {
     // Area is L x B
     let area = 0;
