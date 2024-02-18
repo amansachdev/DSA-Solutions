@@ -30,20 +30,6 @@ var previousResponse = [
       "TipTitle": ""
   },
   {
-      "RewardName": "ROG Mug.",
-      "MediaIdPC": "https://dlcdnwebimgs.asus.com/gain/f517ccf7-75c8-42ab-bf5e-4aa2c601068a/",
-      "MediaIdMobile": "https://dlcdnwebimgs.asus.com/gain/f517ccf7-75c8-42ab-bf5e-4aa2c601068a/",
-      "RewardId": 737,
-      "Description": "<p>Redeem the ROG Exclusive Mug!</p>",
-      "RewardType": 3,
-      "Status": 2,
-      "Point": 300,
-      "Priority": 2,
-      "ButtonWords": "300 POINTS",
-      "TipMessage": "",
-      "TipTitle": ""
-  },
-  {
       "RewardName": "Elite logo Pinball animated wallpaper 3840x2160",
       "MediaIdPC": "https://dlcdnwebimgs.asus.com/api/gain/ff3a269e-c84a-4754-a74b-074b63915323/",
       "MediaIdMobile": "https://dlcdnwebimgs.asus.com/api/gain/ff3a269e-c84a-4754-a74b-074b63915323/",
@@ -52,7 +38,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 3,
+      "Priority": 2,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -66,7 +52,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 4,
+      "Priority": 3,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -80,7 +66,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 5,
+      "Priority": 4,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -94,7 +80,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 6,
+      "Priority": 5,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -108,7 +94,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 7,
+      "Priority": 6,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -122,7 +108,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 8,
+      "Priority": 7,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -136,7 +122,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 9,
+      "Priority": 8,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -150,7 +136,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 10,
+      "Priority": 9,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -164,7 +150,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 11,
+      "Priority": 10,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -178,7 +164,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 12,
+      "Priority": 11,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -192,7 +178,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 13,
+      "Priority": 12,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -206,7 +192,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 14,
+      "Priority": 13,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -220,7 +206,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 15,
+      "Priority": 14,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -234,7 +220,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 16,
+      "Priority": 15,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -248,7 +234,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 17,
+      "Priority": 16,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -262,7 +248,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 18,
+      "Priority": 17,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -276,7 +262,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 19,
+      "Priority": 18,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -290,7 +276,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 20,
+      "Priority": 19,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -304,7 +290,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 21,
+      "Priority": 20,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -318,7 +304,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 22,
+      "Priority": 21,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -332,7 +318,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 23,
+      "Priority": 22,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -346,7 +332,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 24,
+      "Priority": 23,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -360,7 +346,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 25,
+      "Priority": 24,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -374,7 +360,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 26,
+      "Priority": 25,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -388,7 +374,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 27,
+      "Priority": 26,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -402,7 +388,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 28,
+      "Priority": 27,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -416,7 +402,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 29,
+      "Priority": 28,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -430,7 +416,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 30,
+      "Priority": 29,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -444,7 +430,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 31,
+      "Priority": 30,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -458,7 +444,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 300,
-      "Priority": 32,
+      "Priority": 31,
       "ButtonWords": "300 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -472,7 +458,7 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 200,
-      "Priority": 33,
+      "Priority": 32,
       "ButtonWords": "200 POINTS",
       "TipMessage": "",
       "TipTitle": ""
@@ -486,36 +472,33 @@ var previousResponse = [
       "RewardType": 1,
       "Status": 1,
       "Point": 200,
-      "Priority": 34,
+      "Priority": 33,
       "ButtonWords": "200 POINTS",
       "TipMessage": "",
       "TipTitle": ""
   }
-];
+]
 
 function pollApi() {
   var config = {
-    method: "get",
-    url: "https://rog.asus.com/elite/api/v2/RewardList?aticket=e87ddc8992a84887ba8e4d09880f7738&WebsiteCode=in&systemCode=rog",
-    headers: {
-      authority: "rog.asus.com",
-      accept: "application/json, text/plain, */*",
-      "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
-      api_key: "Em3l6i7t2qe",
-      cookie:
-        'token=7hth8ofsazwn761; _gcl_au=1.1.5027152.1703906419; BVBRANDID=ef7babbe-4ff1-4fb4-863a-073a9ed9c650; BVBRANDSID=725cca94-3963-4eb1-ae55-976f9d1cdbae; _ga=GA1.1.1554931635.1703906424; _fbp=fb.1.1703906426004.883974154; _ce.irv=new; cebs=1; _clck=6nehwb%7C2%7Cfhz%7C0%7C1459; _ce.clock_event=1; _ce.clock_data=80%2C152.58.230.236%2C1%2C4be5075824dfc9ebfcea962f3188097c; aticket=e87ddc8992a84887ba8e4d09880f7738; APREFORZ=2E7B8B5C-ED8C-4765-AA24-C0A04F2CEA711A7H; RT="z=1&dm=rog.asus.com&si=0e76caad-ce07-406a-a80c-d57cbc21fa40&ss=lqrhvz3j&sl=2&tt=7wv&bcn=%2F%2F684dd326.akstat.io%2F&obo=1"; cto_bundle=GTe4kV9NanhwRmRQdnRTcklaVktuT3FoUm1ySTRUZDJPdkowak9RQWdRMCUyQkhNR0IzTFd1QWFBT1VHYTElMkY1dDkxakJNSGNuc1ZJVExTdlhCRVZITCUyQkUlMkYlMkZxMUZpeXpUY01rYllQZ3dQdk81anhiSCUyRlhqWDI5Sk1qcUJMTXdzVW9HblZZM2hIeCUyRndRWWwyQWUzRVVkMnh6MmpBQSUzRCUzRA; _uetsid=5febf410a6c211ee977c038f38242040; _uetvid=5febde60a6c211ee8a83e3bf0a26db44; cebsp_=4; _clsk=16j952i%7C1703906470219%7C4%7C1%7Cx.clarity.ms%2Fcollect; _ce.s=v~1a5f36c98829ae2e23d112e9be3aca348b4f7088~lcw~1703906470467~lva~1703906426259~vpv~0~v11.cs~154890~v11.s~63b72fc0-a6c2-11ee-a8de-892a9691e25c~v11.sla~1703906470474~gtrk.la~lqrhx23m~lcw~1703906470474; _ga_T0D8JMNRV2=GS1.1.1703906424.1.1.1703906470.14.0.0; _ga_BP9E82TF15=GS1.1.1703906424.1.1.1703906470.14.0.0',
-      referer: "https://rog.asus.com/in/elite/reward/all",
-      "sec-ch-ua":
-        '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
-      "sec-ch-ua-mobile": "?0",
-      "sec-ch-ua-platform": '"Linux"',
-      "sec-fetch-dest": "empty",
-      "sec-fetch-mode": "cors",
-      "sec-fetch-site": "same-origin",
-      token: process.env.auth,
-      "user-agent":
-        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    },
+    method: 'get',
+    url: 'https://rog.asus.com/elite/api/v2/RewardList?aticket=bfbb4b7cbf094cf6a19d3da5a309c9f2&WebsiteCode=in&systemCode=rog',
+    headers: { 
+      'authority': 'rog.asus.com', 
+      'accept': 'application/json, text/plain, */*', 
+      'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8', 
+      'api_key': 'Em3l6i7t2qe', 
+      'cookie': '_gcl_au=1.1.5027152.1703906419; BVBRANDID=ef7babbe-4ff1-4fb4-863a-073a9ed9c650; _ga=GA1.1.1554931635.1703906424; _fbp=fb.1.1703906426004.883974154; _tt_enable_cookie=1; _ttp=qEaxd2fkZYzcclvzllNhC7aTcNA; cto_bundle=POe_il9NanhwRmRQdnRTcklaVktuT3FoUm1ycGVvdGkyTkUxbHF3dGxFV1J6dVdpSVhnVlE4WENUMWM2cTIwWGJGMHBoa3ozTTBMZTYzZlNWM3laSjRrcEhwc0JodGVNdHhDQXFLaVhJdnFtZG1xRHFtaE9tbjZ2T2NqNkZDcUZiWWVndUFqUHJ5N1RDeWhYM1JrdTBmT1BYTFdSVktIVDM4Tk9FbUg1N3c1Z1RzdENKcGpGaCUyRjl0TjBDSmxSOTc0SHVBNmE2d3RYbzBtcVk4UTJoeVROeENMVWclM0QlM0Q; _clck=6nehwb%7C2%7Cfis%7C0%7C1459; BVBRANDSID=84d028b7-12ca-4b00-b6a3-56c35e5d3236; token=zn7wrlf3kws6kwy; _ce.irv=returning; cebs=1; _uetsid=91860e10ce3b11eeadba4b827887ce5c; _uetvid=5febde60a6c211ee8a83e3bf0a26db44; _ce.clock_event=1; _ce.clock_data=71%2C106.196.26.150%2C1%2C4be5075824dfc9ebfcea962f3188097c; cebsp_=1; aticket=bfbb4b7cbf094cf6a19d3da5a309c9f2; APREFORZ=2E7B8B5C-ED8C-4765-AA24-C0A04F2CEA712V2T; _ce.s=v~1a5f36c98829ae2e23d112e9be3aca348b4f7088~lcw~1708246595222~lva~1708246573314~vpv~6~v11.cs~154890~v11.s~99f42250-ce3b-11ee-9695-c59da3f0a5ba~v11.sla~1708246596019~gtrk.la~lsr9ww04~v11.send~1708246594739~lcw~1708246596020; RT="z=1&dm=rog.asus.com&si=dc946196-c2c3-4dba-923e-54bf5a19b2bb&ss=lsr9wf8u&sl=2&tt=4ox&bcn=%2F%2F02179919.akstat.io%2F&obo=1"; _ga_T0D8JMNRV2=GS1.1.1708246570.10.1.1708246599.31.0.0; _ga_BP9E82TF15=GS1.1.1708246570.10.1.1708246599.31.0.0', 
+      'referer': 'https://rog.asus.com/in/elite/reward/all', 
+      'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"', 
+      'sec-ch-ua-mobile': '?0', 
+      'sec-ch-ua-platform': '"Linux"', 
+      'sec-fetch-dest': 'empty', 
+      'sec-fetch-mode': 'cors', 
+      'sec-fetch-site': 'same-origin', 
+      'token': 'zn7wrlf3kws6kwy', 
+      'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    }
   };
 
   axios(config)
@@ -568,7 +551,7 @@ function dailyLogin() {
       "sec-fetch-dest": "empty",
       "sec-fetch-mode": "cors",
       "sec-fetch-site": "same-origin",
-      token: "dvlrft4xowmch5d",
+      token: "zn7wrlf3kws6kwy",
       "user-agent":
         "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     },
@@ -599,7 +582,7 @@ app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
 setInterval(pollApi, 600000);
-dailyLogin();
-setInterval(dailyLogin, 86400000);
+// dailyLogin();
+// setInterval(dailyLogin, 600000);
 
 
